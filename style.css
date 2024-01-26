@@ -1,0 +1,115 @@
+*{
+    margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Karantina&display=swap');
+
+header{
+    padding: 10px 10%;
+    background:linear-gradient(rgb(105, 0, 0), rgb(46, 34, 34)) ;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.a{
+    font-family: 'Inria Serif', serif;
+    color: rgb(255, 255, 255);
+    width: 50;
+}
+
+header>*{
+    display: inline-block;
+    width:450px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin:0 10px;
+}
+.pustota{
+    width:10%;
+}
+header>a{
+    text-decoration: none;
+    color: black;
+    margin:0 30px;
+}
+
+.sek{
+
+    padding: 100 100px;
+    text-align: center;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    font-family: 'Inria Serif', serif;
+    color: rgb(255, 255, 255);
+}
+
+.artDiv p{
+    padding: 0 20px;
+    flex: 3;
+    text-align: center;
+}
+
+.artDiv img{
+    flex: 2;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Karantina', system-ui;
+    color: rgb(100, 31, 31);
+}
+
+h1{
+    font-family: 'Karantina', system-ui;
+    color:rgb(254, 112, 112);
+}
+
+body{
+    background-color:rgb(46, 34, 34);
+}
+.poz{
+   width: 90%; 
+}
+.poz>*{
+    font-size:30px;
+    vertical-align: middle;}
+.razryv{
+    height:50px;
+}
+
+footer{
+    padding: 10px 10%;
+    background:linear-gradient(rgb(46, 34, 34), rgb(105, 0, 0)) ;
+    top:0;
+    left:0;
+    width:100%;
+    height: 50px;
+}
+.training{
+    text-decoration: none;
+    padding: 10px 20px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(254, 112, 112);
+    border-radius: 30px;
+    margin:0 0px;
+    
+}
